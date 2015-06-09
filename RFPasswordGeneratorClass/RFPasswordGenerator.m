@@ -24,9 +24,9 @@ char *appendRandom(char *str, char *alphabet, int amount) {
 
 +(NSString *)generateLowSecurityPassword{
     // Get slider values
-    int letters  = 6;
+    int letters  = 0;
     int capitals = 0;
-    int digits   = 0;
+    int digits   = 4;
     int symbols  = 0;
     int length   = letters + capitals + digits + symbols;
     
