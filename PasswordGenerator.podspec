@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'RFPasswordGenerator/*.*'
+  s.source_files = 'RFPasswordGeneratorClass/*.*'
 
-  s.public_header_files = 'RFPasswordGenerator/*.h'
+  s.public_header_files = 'RFPasswordGeneratorClass/*.h'
   s.framework       = 'Foundation'
 end
